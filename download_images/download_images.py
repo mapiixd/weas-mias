@@ -6,7 +6,7 @@ Descarga todas las imágenes encontradas en una página web específica.
 Uso:
     python download_images.py https://blog.myl.cl/hijos-de-daana-aniversario -o salida/
 Ejemplo:
-    python download_images.py "https://blog.myl.cl/shogun-3-reino-de-las-sombras" -o ../recursos-myl/shogun-3 -t 12
+    python download_images/download_images.py "https://blog.myl.cl/hijos-de-daana-aniversario" -o ../recursos-myl/daana-aniv -t 12
 Requisitos:
     pip install requests beautifulsoup4
 """
